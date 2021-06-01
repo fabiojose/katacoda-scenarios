@@ -24,7 +24,7 @@
     }
   },
   "environment": {
-    "uilayout": "editor-terminal-split"
+    "uilayout": "terminal"
   },
   "backend": {
     "imageid": "kafka:2.4"
