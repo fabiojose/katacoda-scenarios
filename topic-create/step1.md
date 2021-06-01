@@ -1,16 +1,30 @@
-Iniciar o Apache Kafka® com apenas um Broker.
+Cria seu primeiro Tópico
 
-# Zookeeper
+# Criar
 
-O Zookeeper é responsável pelo gerenciamento do Cluster e metadados dos Tópicos.
+```
+kafka-topics.sh --bootstrap-server localhost:9092 \
+  --create \
+  --topic meu-primeiro-topico
+```{{execute}}
 
-`zookeeper-server-start.sh $KAFKA_HOME/config/zookeeper.properties`{{execute T1}}
+Isto deverá ser exibido, indicando que o tópico foi criado:
 
-# Broker
+```
+Created topic meu-primeiro-topico.
+```
 
-```kafka-server-start.sh $KAFKA_HOME/config/server.properties \    
---override broker.id=30 \   
---override log.dirs=/tmp/broker30-logs \    
---override listeners=PLAINTEXT://:9092 \                         
---override zookeeper.connect=localhost:2181 \                
---override zookeeper.connection.timeout.ms=10000```{{execute T2}}
+# Detalhar
+
+```
+kafka-topics.sh --bootstrap-server localhost:9092 \
+  --describe \
+  --topic meu-primeiro-topico
+```{{execute}}
+
+Isto deverá ser exibido, indicando que o tópico foi encontrado:
+
+```
+Topic: meu-primeiro-topico      TopicId: _GScDwhQSleKZQvj5XWMrA PartitionCount: 1       ReplicationFactor: 1    Configs: segment.bytes=1073741824
+        Topic: meu-primeiro-topico      Partition: 0    Leader: 1       Replicas: 1     Isr: 1
+```

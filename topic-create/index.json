@@ -2,18 +2,13 @@
   "title": "Criar Tópicos com o Kafka CLI",
   "description": "Entenda como criar Tópicos através do CLI oficial do Apache Kafka®",
   "difficulty": "Beginner",
-  "time": "5",
+  "time": "5 minutos",
   "details": {
     "steps": [
       {
-        "title": "Step 1",
+        "title": "Passo 1",
         "courseData": "set-kafka-home.sh",
         "text": "step1.md"
-      },
-      {
-        "title": "Step 2",
-        "courseData": "set-kafka-home.sh",
-        "text": "step2.md"
       }
     ],
     "intro": {
