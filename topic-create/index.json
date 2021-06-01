@@ -7,10 +7,12 @@
     "steps": [
       {
         "title": "Step 1",
+        "courseData": "set-kafka-home.sh",
         "text": "step1.md"
       },
       {
         "title": "Step 2",
+        "courseData": "set-kafka-home.sh",
         "text": "step2.md"
       }
     ],
