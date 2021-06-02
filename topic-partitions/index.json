@@ -1,0 +1,32 @@
+{
+  "title": "Criar Tópicos com número customizado de Partições",
+  "description": "Entenda como criar Tópicos através do CLI oficial do Apache Kafka®",
+  "difficulty": "Beginner",
+  "time": "5 minutos",
+  "details": {
+    "steps": [
+      {
+        "title": "Passo 1",
+        "code": "set-kafka-home.sh",
+        "text": "step1.md"
+      },
+      {
+        "title": "Passo 2",
+        "code": "set-kafka-home.sh",
+        "text": "step2.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "kafka:2.4"
+  }
+}
