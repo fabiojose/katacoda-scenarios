@@ -1,4 +1,4 @@
-Parabéns! Você já sabe como criar tópicos no Kafka CLI.
+Parabéns! Você já sabe como criar tópicos no Apache Kafka®, através do Kafka CLI.
 
 Neste lab:
 
