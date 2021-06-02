@@ -8,12 +8,6 @@ kafka-topics.sh --bootstrap-server localhost:9092 \
   --topic meu-primeiro-topico
 ```{{execute}}
 
-Isto deverá ser exibido, indicando que o tópico foi criado:
-
-```
-Created topic meu-primeiro-topico.
-```
-
 # Detalhar
 
 ```
