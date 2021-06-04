@@ -9,5 +9,5 @@ o número desejado de partitions.
 kafka-topics.sh --bootstrap-server localhost:9092 \
   --create \
   --topic topico-sete \
-  --partitions 7 \
+  --partitions 7
 ```{{execute}}
