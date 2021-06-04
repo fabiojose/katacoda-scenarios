@@ -1,4 +1,4 @@
-Detalha seu Tópico para verificar se as configurações customizadas foram aplicadas.
+Produz eventos com chave de partição, o metadado `key` no Registro.
 
 # Teste: registros com a chave de partição
 

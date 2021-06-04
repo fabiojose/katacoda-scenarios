@@ -1,4 +1,5 @@
-Detalha seu Tópico para verificar se as configurações customizadas foram aplicadas.
+Produz eventos __sem__ a chave de partição, o que é proibido ao definir `cleanup.policy` igual a
+`compact` no Tópico.
 
 # Teste: registros s/ a chave de partição
 
