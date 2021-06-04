@@ -12,7 +12,6 @@
       },
       {
         "title": "Passo 2",
-        "code": "set-kafka-home.sh",
         "text": "step2.md"
       }
     ],
