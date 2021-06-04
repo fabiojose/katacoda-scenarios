@@ -1,0 +1,31 @@
+{
+  "title": "Entenda a política de limpeza dos Tópicos",
+  "description": "Ela é uma operação do Cluster e a única habilitada a apagar os Registros",
+  "difficulty": "Beginner",
+  "time": "5 minutos",
+  "details": {
+    "steps": [
+      {
+        "title": "Passo 1",
+        "code": "set-kafka-home.sh",
+        "text": "step1.md"
+      },
+      {
+        "title": "Passo 2",
+        "text": "step2.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "kafka:2.4"
+  }
+}

@@ -5,7 +5,7 @@ Detalha seu Tópico para verificar se as partições foram criadas.
 ```
 kafka-topics.sh --bootstrap-server localhost:9092 \
   --describe \
-  --topic topico-sete \
+  --topic topico-sete
 ```{{execute}}
 
 Isto deverá ser exibido, indicando que o tópico foi encontrado:
