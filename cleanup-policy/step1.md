@@ -13,3 +13,5 @@ kafka-topics.sh --bootstrap-server localhost:9092 \
   --config segment.ms=10000 \
   --config cleanup.policy=compact
 ```{{execute}}
+
+Aguarde um momento até a finalização do comando.
