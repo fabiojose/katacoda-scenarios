@@ -16,4 +16,8 @@ kafka-producer-perf-test.sh \
       batch.size=307200
 ```{{execute}}
 
-Aguarde um momento até a finalização do comando.
+Uma saída como esta deverá ser exibida, indicando que tudo está correto:
+
+```
+5 records sent, 11,467890 records/sec (0,56 MB/sec), 105,80 ms avg latency, 428,00 ms max latency, 25 ms 50th, 428 ms 95th, 428 ms 99th, 428 ms 99.9th.
+```
