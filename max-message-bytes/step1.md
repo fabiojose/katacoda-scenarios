@@ -1,4 +1,4 @@
-Cria seu Tópico com a política de limpeza desejada. 
+Cria seu Tópico com o tamanho máximo permitido. 
 
 # Criar
 
