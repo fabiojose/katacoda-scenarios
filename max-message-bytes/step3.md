@@ -22,3 +22,8 @@ Será exibido um erro similar a este, indicando que o limite máximo foi ultrapa
 ```
 WARN [Producer clientId=producer-1] Got error produce response in correlation id 1258 on topic-partition lote300kib-0, splitting and retrying (2147483647 attempts left). Error: MESSAGE_TOO_LARGE (org.apache.kafka.clients.producer.internals.Sender)
 ```
+
+Utilize `CTRL+c` para interromper as mensagens de erro:
+
+`^C`{{execute ctrl-seq}}
+
