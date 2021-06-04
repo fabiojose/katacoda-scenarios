@@ -2,7 +2,7 @@ Cria seu Tópico com a política de limpeza desejada.
 
 # Criar
 
-Através do argumento `--config`, o kafka-topics permite definição valores customizados para
+Através do argumento `--config`, o kafka-topics permite a definição valores customizados para
 cada uma das configurações que um Tópico possue.
 
 ```
