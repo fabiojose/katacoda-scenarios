@@ -18,5 +18,5 @@ Será exibido um erro similar a este, indicando que a fator de replicação é m
 de brokers disponíveis.
 
 ```
-TODO
+Error while executing topic command : org.apache.kafka.common.errors.InvalidReplicationFactorException: Replication factor: 2 larger than available brokers: 1.
 ```

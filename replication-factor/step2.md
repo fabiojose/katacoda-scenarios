@@ -5,10 +5,10 @@ Iniciar um novo broker.
 Depois de iniciado, este novo broker entrará no cluster e será considerado para
 a customização no fator de replicação.
 
-```bash
-kafka-server-start.sh $KAFKA_HOME/config/server.properties \    
-  --override broker.id=21 \
-  --override log.dirs=/tmp/broker21-logs \
+```
+kafka-server-start.sh $KAFKA_HOME/config/server.properties \
+  --override broker.id=9 \
+  --override log.dirs=/tmp/broker9-logs \
   --override listeners=PLAINTEXT://:29092
 ```{{execute T2}}
 
