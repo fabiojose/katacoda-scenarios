@@ -8,7 +8,7 @@ cada uma das configurações que um Tópico possue.
 Neste caso `retention.ms` o define a retenção mínima de dois minutos. E `segment.ms` define
 segmentação a cada três segundos.
 
-```
+```bash
 kafka-topics.sh --bootstrap-server localhost:9092 \
   --create \
   --partitions 1 \
