@@ -7,7 +7,7 @@ eventos em texto plano - _plain text_.
 
 ```bash
 kafka-console-producer.sh \
-  --bootstrap-server localhost:9092 \
+  --broker-list localhost:9092 \
   --topic 2minutos \ <<EOF
 Registro_0
 Registro_1

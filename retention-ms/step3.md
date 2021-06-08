@@ -7,7 +7,7 @@ e apresentá-los no terminal.
 
 ```bash
 kafka-console-consumer.sh \
-  --bootstrap-server localhost:9092 \
+  --broker-list localhost:9092 \
   --topic 2minutos \
   --from-beginning
 ```{{execute}}
