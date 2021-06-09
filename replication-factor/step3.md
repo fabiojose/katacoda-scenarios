@@ -1,7 +1,8 @@
+Agora o cluster possui dois brokers.
+
 # Criar
 
-Agora que o cluster é composto por dois brokers, pode-se criar um tópico com 
-`--replication-factor` igual a `2`.
+Então, pode-se criar um tópico com `--replication-factor` igual a `2`.
 
 ```
 cd /root/kafka
