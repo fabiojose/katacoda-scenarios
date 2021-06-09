@@ -2,7 +2,7 @@
   "title": "Criar um tópico com o fator de replicação customizado",
   "description": "O fato de replicação determina quantas cópias de cada partição haverão no cluster",
   "difficulty": "Beginner",
-  "time": "5 minutos",
+  "time": "5-10 minutos",
   "details": {
     "steps": [
       {
@@ -13,6 +13,10 @@
       {
         "title": "Passo 2",
         "text": "step2.md"
+      },
+      {
+        "title": "Passo 3",
+        "text": "step3.md"
       }
     ],
     "intro": {
@@ -26,7 +30,7 @@
     "uilayout": "terminal",
     "terminals": [
       {
-        "name": "Broker",
+        "name": "Criar Tópico",
         "target" : "host01",
         "command" : "source set-kafka-home.sh"
       }
