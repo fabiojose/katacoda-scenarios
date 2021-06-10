@@ -1,6 +1,6 @@
 {
   "title": "Criar um tópico com o fator de replicação customizado",
-  "description": "O fato de replicação determina quantas cópias de cada partição haverão no cluster",
+  "description": "O fator de replicação determina quantas cópias de cada partição haverão no cluster",
   "difficulty": "Beginner",
   "time": "5-10 minutos",
   "details": {
