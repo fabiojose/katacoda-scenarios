@@ -1,4 +1,4 @@
-Agora o cluster possui dois brokers.
+Agora o cluster possui dois brokers e pode-se customizar o fator de replicação.
 
 # Criar
 
