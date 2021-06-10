@@ -4,7 +4,8 @@ em um Cluster com apenas um Broker.
 # Produzir
 
 ```
-kafka-console-producer.sh \
+cd /root/kafka
+bin/kafka-console-producer.sh \
   --broker-list localhost:9092 \
   --producer-property acks=all \
   --topic 2minsync <<EOF

@@ -3,7 +3,8 @@ Criar tópico com o mínimo de réplicas em sincronia.
 # Criar
 
 ```
-kafka-topics.sh --bootstrap-server localhost:9092 \
+cd /root/kafka
+bin/kafka-topics.sh --bootstrap-server localhost:9092 \
   --create \
   --topic 2minsync \
   --config min.insync.replicas=2

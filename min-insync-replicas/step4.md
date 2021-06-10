@@ -6,13 +6,14 @@ em um Cluster com apenas um Broker.
 Agora o cluster é composto por dois brokers.
 
 ```
-kafka-topics.sh --bootstrap-server localhost:9092 \
+cd /root/kafka
+bin/kafka-topics.sh --bootstrap-server localhost:9092 \
   --create \
   --topic 2replicas \
   --replication-factor 2 \
   --config min.insync.replicas=2
 
-kafka-console-producer.sh \
+bin/kafka-console-producer.sh \
   --broker-list localhost:9092 \
   --producer-property acks=all \
   --topic 2replicas <<EOF

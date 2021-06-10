@@ -6,7 +6,8 @@ Depois de iniciado, este novo broker entrará no cluster e será considerado par
 a customização no fator de replicação.
 
 ```
-kafka-server-start.sh $KAFKA_HOME/config/server.properties \
+cd /root/kafka
+bin/kafka-server-start.sh config/server.properties \
   --override broker.id=9 \
   --override log.dirs=/tmp/broker9-logs \
   --override listeners=PLAINTEXT://:29092
