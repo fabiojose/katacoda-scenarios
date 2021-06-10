@@ -12,6 +12,8 @@ kafka-server-start.sh $KAFKA_HOME/config/server.properties \
   --override listeners=PLAINTEXT://:29092
 ```{{execute T1}}
 
+- `--override broker.id=9`: este novo broker terá o identificador `9`
+
 Isto deverá ser exibido, indicando que o broker foi iniciado com sucesso:
 
 ```
