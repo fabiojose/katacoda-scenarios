@@ -12,5 +12,5 @@ bin/kafka-topics.sh --bootstrap-server localhost:9092 \
 
 Aguarde um momento até a finalização do comando.
 
-> Diferente do fator de replicação, o tópico será normalmente criado mesmo que o número
+> Diferente do fator de replicação, o tópico será normalmente criado mesmo se o número
 de brokers não for suficiente para manter o mínimo de replicação.
