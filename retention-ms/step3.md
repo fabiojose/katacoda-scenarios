@@ -21,3 +21,7 @@ Registro_2
 Registro_3
 Registro_4
 ```
+
+Teclar `CTRL+c` para finalizar o consumo:
+
+`^C`{{execute ctrl-seq}}
