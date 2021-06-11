@@ -8,7 +8,7 @@ e apresentá-los no terminal.
 ```bash
 kafka-console-consumer.sh \
   --bootstrap-server localhost:9092 \
-  --topic 2minutos \
+  --topic 20segundos \
   --from-beginning
 ```{{execute}}
 
@@ -25,3 +25,7 @@ Registro_4
 Teclar `CTRL+c` para finalizar o consumo:
 
 `^C`{{execute ctrl-seq}}
+
+E execute o comando de consumo mais algumas vezes e você verá que passados os vinte segundos,
+ainda será possível consumir os registros. Por este motivo, `retention.ms`, define o tempo 
+mínimo de retenção e não o máximo.
