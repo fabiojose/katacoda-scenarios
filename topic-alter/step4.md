@@ -6,7 +6,8 @@ Também é possível modificar configurações diretamente pelo Apache Kafka®. 
 recomendada, já que no futuro o Cluster será totalmente autônomo.
 
 ```
-kafka-configs.sh --bootstrap-server localhost:9092 \
+cd /root/kafka
+bin/kafka-configs.sh --bootstrap-server localhost:9092 \
 --alter \
 --entity-type topics \
 --entity-name topico-alterar \

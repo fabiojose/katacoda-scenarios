@@ -3,7 +3,8 @@ Visualizar modificações.
 # Descrever
 
 ```
-kafka-configs.sh --bootstrap-server localhost:9092 \
+cd /root/kafka
+bin/kafka-configs.sh --bootstrap-server localhost:9092 \
 --describe \
 --topic topico-alterar
 ```{{execute}}

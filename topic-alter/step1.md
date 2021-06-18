@@ -5,7 +5,8 @@ Cria seu primeiro Tópico
 Através do argumento `--create`, o kafka-topics processa a criação de um novo tópico.
 
 ```
-kafka-topics.sh --bootstrap-server localhost:9092 \
+cd /root/kafka
+bin/kafka-topics.sh --bootstrap-server localhost:9092 \
 --create \
 --topic topico-alterar \
 --partitions 1
