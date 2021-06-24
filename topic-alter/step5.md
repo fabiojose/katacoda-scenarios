@@ -4,7 +4,7 @@ Visualizar modificações.
 
 ```
 cd /root/kafka
-bin/kafka-configs.sh --bootstrap-server localhost:9092 \
+bin/kafka-topics.sh --bootstrap-server localhost:9092 \
 --describe \
 --topic topico-alterar
 ```{{execute}}

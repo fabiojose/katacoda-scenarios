@@ -2,7 +2,7 @@
   "title": "Alterar Tópicos pelo Kafka CLI",
   "description": "Entenda como modificar os Tópicos através do CLI oficial do Apache Kafka®",
   "difficulty": "Beginner",
-  "time": "5 minutos",
+  "time": "10 minutos",
   "details": {
     "steps": [
       {
@@ -38,6 +38,6 @@
     "uilayout": "terminal"
   },
   "backend": {
-    "imageid": "kafka:2.4"
+    "imageid": "fabiojose-kafka-28"
   }
 }
