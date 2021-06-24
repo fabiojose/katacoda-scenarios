@@ -7,9 +7,8 @@ recomendada, já que no futuro o Cluster será totalmente autônomo.
 
 ```
 cd /root/kafka
-bin/kafka-configs.sh --bootstrap-server localhost:9092 \
+bin/kafka-topics.sh --bootstrap-server localhost:9092 \
 --alter \
---entity-type topics \
---entity-name topico-alterar \
---add-config cleanup.policy=compact
+--topic topico-alterar \
+--config cleanup.policy=compact
 ```{{execute}}
