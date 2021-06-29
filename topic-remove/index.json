@@ -1,0 +1,31 @@
+{
+  "title": "Remover Tópicos com o Kafka CLI",
+  "description": "Entende como remover Tópicos através do CLI oficial do Apache Kafka®",
+  "difficulty": "Beginner",
+  "time": "5 minutos",
+  "details": {
+    "steps": [
+      {
+        "title": "Step 1",
+        "text": "step1.md",
+        "courseData": "setup-kafka28.sh"
+      },
+      {
+        "title": "Step 2",
+        "text": "step2.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "openjdk:11"
+  }
+}
