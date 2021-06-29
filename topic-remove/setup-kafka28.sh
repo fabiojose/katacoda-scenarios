@@ -7,7 +7,7 @@ export PATH=$PATH:$KAFKA_HOME/bin
 curl 'https://downloads.apache.org/kafka/2.8.0/kafka_2.12-2.8.0.tgz' -o kafka.tgz
 
 # Extract
-tar -xvzf kafka.tgz
+tar -xvzf kafka.tgz --directory kafka
 
 # Start zookeeper
 zookeeper-server-start.sh $KAFKA_HOME/config/zookeeper.properties&
