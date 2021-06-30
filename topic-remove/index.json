@@ -28,6 +28,7 @@
       ]
     }
   },
+  "files": [],
   "environment": {
     "uilayout": "terminal"
   },
