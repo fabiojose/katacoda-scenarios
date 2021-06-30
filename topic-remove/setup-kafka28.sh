@@ -21,6 +21,7 @@ kafka-server-start.sh $KAFKA_HOME/config/server.properties \
 --override log.dirs=/tmp/broker1-logs \
 --override listeners=PLAINTEXT://:9092 \
 --override zookeeper.connect=localhost:2181 \
---override zookeeper.connection.timeout.ms=10000
+--override zookeeper.connection.timeout.ms=10000&
+sleep 5
 
 echo "done" >> /root/katacoda-background-finished
