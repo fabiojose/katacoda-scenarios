@@ -2,11 +2,10 @@
 
 echo "done" | sudo tee /root/katacoda-finished
 
-export KAFKA_HOME=/root/kafka_2.12-2.8.0
-export PATH=$PATH:$KAFKA_HOME/bin
+source home.sh
 
 # Download
-curl 'https://downloads.apache.org/kafka/2.8.0/kafka_2.12-2.8.0.tgz' -o kafka.tgz
+curl "https://downloads.apache.org/kafka/$KAFKA_VERSION/$KAFKA_FILE.tgz" -o kafka.tgz
 
 # Extract
 tar -xvzf kafka.tgz

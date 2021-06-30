@@ -1,0 +1,5 @@
+
+export KAFKA_VERSION=2.8.0
+export KAFKA_FILE=kafka_2.12-$KAFKA_VERSION
+export KAFKA_HOME=/root/$KAFKA_FILE
+export PATH=$PATH:$KAFKA_HOME/bin

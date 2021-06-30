@@ -24,6 +24,7 @@
     },
     "assets": {
       "host01": [
+        { "file": "home.sh", "target": "/usr/local/bin/", "chmod": "+x" },
         { "file": "wait.sh", "target": "/usr/local/bin/", "chmod": "+x" }
       ]
     }
