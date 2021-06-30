@@ -1,5 +1,7 @@
 #!/bin/bash
 
+echo "done" | sudo tee /root/katacoda-finished
+
 export KAFKA_HOME=/root/kafka_2.12-2.8.0
 export PATH=$PATH:$KAFKA_HOME/bin
 
