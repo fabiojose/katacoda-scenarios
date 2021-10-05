@@ -38,6 +38,6 @@
     "uilayout": "terminal"
   },
   "backend": {
-    "imageid": "fabiojose-kafka-28"
+    "imageid": "kafka:2.4"
   }
 }
